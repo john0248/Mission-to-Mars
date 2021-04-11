@@ -58,10 +58,9 @@
       <div class="row" id="mars-hemispheres">
         <div class="jumbotron text-center">
           <h2 class="text-center">Mars Hemispheres</h2>
-        </div>
-
+        </div class="row">
         {% for hemisphere in mars.hemisphere_image %}
-        <div class="col-md-6">
+        <div class="col-md-3">
           <div class="figure">
             <img src="{{hemisphere.links | default('static/images/error.png', true)}}" class="img-responsive img-rounded" alt= "Responsive image" >
             <div class="caption">
