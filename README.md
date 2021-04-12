@@ -4,8 +4,7 @@ Robin a reporter and huge NASA fan has decided to show case her web scraping and
 ## Deliverable 1: Scrape High-Resolution Mars Hemisphere Images and Titles
 After inspecting the website for the Mars images, it was determined the best way to collect all 4 images was a for loop. The scrapy.py file contains the functions we created to pull all the important and updated information from different sites Robin follows.  Below is a snap-shot of the code you will find inside the scrapy file.
 
-
-
+![](Resources/code_dic.png)
 
 
 
@@ -19,3 +18,5 @@ To update the website whenever Robin wants, a Flask app was created. The file na
 The final devliverable is adding two Bootstrap 3 components to the index file.  The index file can be found inside the templates folder.  I adjusted two main items for this challenge:
 1. Placed all 4 images on a single row.
 2. Made the Mars Hemisphere title a Jumbotron text-center class. 
+
+![](Resources/bootstrap3_changes.png)
